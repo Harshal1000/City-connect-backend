@@ -1,0 +1,40 @@
+{
+  "name": "eseva-backend",
+  "version": "1.0.0",
+  "description": "this is the backend for eseva online appointment website",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eseva",
+    "website",
+    "node",
+    "react"
+  ],
+  "author": "Harshal patil",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "buffer": "^6.0.3",
+    "cloudinary": "^2.2.0",
+    "cloudinary-build-url": "^0.2.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.5",
+    "mongoose-aggregate-paginate-v2": "^1.1.1",
+    "mongoose-paginate-v2": "^1.8.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
